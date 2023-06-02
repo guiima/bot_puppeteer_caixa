@@ -1,6 +1,30 @@
 {
-  "type": "module",
+  "name": "bot_puppeteer_caixa",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon lib/src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.22",
     "puppeteer": "^20.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guiima/bot_puppeteer_caixa.git"
+  },
+  "bugs": {
+    "url": "https://github.com/guiima/bot_puppeteer_caixa/issues"
+  },
+  "homepage": "https://github.com/guiima/bot_puppeteer_caixa#readme"
 }
